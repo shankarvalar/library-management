@@ -82,7 +82,7 @@ export default function Login() {
                     </Button>
                     <Grid container>
                         <Grid item xs>
-                            <Link href="/library-management/signup" variant="body2">
+                            <Link href="/signup" variant="body2">
                                 Don't have an account?
                             </Link>
                         </Grid>
