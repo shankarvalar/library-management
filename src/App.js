@@ -23,7 +23,7 @@ function App(auth) {
           <Routes>
 
 
-            <Route path="/" element={<Login />} />
+            <Route path="/library-management" element={<Login />} />
             <Route path="/home" element={<Home />} />
             <Route path="/signup" element={<Signup />} />
 

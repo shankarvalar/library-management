@@ -16,9 +16,9 @@ export default function Navbar(authuser) {
                         Books
                     </Typography>
                     {authuser ? <Typography>
-                        <Button color="inherit" href='/'>signOut</Button>
+                        <Button color="inherit" href='/library-management'>signOut</Button>
                     </Typography> : <Typography>
-                        <Button color="inherit" href='/'>login</Button>
+                        <Button color="inherit" href='/library-management'>login</Button>
                     </Typography>}
                     {authuser ? <Typography>
                         <Button color="inherit" href=''>Search</Button>

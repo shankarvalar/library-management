@@ -103,7 +103,7 @@ export default function Signup() {
                     </Button>
                     <Grid container>
                         <Grid item xs>
-                            <Link href="/" variant="body2">
+                            <Link href="/library-management" variant="body2">
                                 Already have an account?
                             </Link>
                         </Grid>
