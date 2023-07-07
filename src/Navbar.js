@@ -23,7 +23,7 @@ export default function Navbar(authuser) {
                     {authuser ? <Typography>
                         <Button color="inherit" href=''>Search</Button>
                     </Typography> : <Typography>
-                        <Button color="inherit" href='/signup'>Sign UP</Button>
+                        <Button color="inherit" href='/library-management/signup'>Sign UP</Button>
                     </Typography>}
 
 
